@@ -1,0 +1,3 @@
+<p>This is the math page</p>
+<p><%= @math.problem %></p>
+<p><%= @math.answer %></p>

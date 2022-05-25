@@ -1,0 +1,12 @@
+<section>
+    <div class='jumbotron'>Hello World</div>
+    <p>
+        <%= @var %>
+    </p>
+    <p>
+        <a href='<%= Routes.hello_path(@conn, :show, "greg") %>'>say hey to greg</a>
+        <br>
+        <a href='<%= Routes.hello_path(@conn, :show, "kelsey") %>'>say hey to
+            kelsey</a>
+    </p>
+</section>
